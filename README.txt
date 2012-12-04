@@ -1,3 +1,18 @@
+Background
+==========
+
+There are 1.7M postcodes in the UK, and 182k ONS Output Areas in England and Wales.
+OAs are derived from postcode address point data, and there are about 6-12 postcodes per OA.
+Each OA should consist of 40-250 households, and 100-625 people.
+
+For more, see:
+- http://census2011geog.census.ac.uk/resources/documents/TechnicalSummary_ONS2001OAPSCode.pdf
+- http://www.ons.gov.uk/ons/guide-method/census/census-2001/design-and-conduct/consulting-with-users/output-consultation/geography-output-roadshow-meetings/output-areas---an-introduction.pdf
+- http://cdu.mimas.ac.uk/materials/unit8/unit8-textversion.rtf
+
+
+Installation
+============
 
 pip install pyshp
 
