@@ -14,7 +14,10 @@ if noisy:
 
 sf = shapefile.Reader('OA_2011_EW_BFE_shp/OA_2011_EW_BFE')
 
+if noisy: print 'Loading index...'
 r = sf.records()
+if noisy: print 'Loaded.'
+
 shapeno = r.index([record.oa11])
 if noisy:
     print 'Shape: #%s' % shapeno
