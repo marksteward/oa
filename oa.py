@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import shapefile
-import os, sys, bisect
+import sys
 from onspd import PostcodeList
 
 noisy = sys.stdout.isatty()
@@ -30,7 +30,7 @@ viewBox = ' '.join(map(str, [e1, n1, e2 - e1, n2 - n1]))
 points = ['%s %s' % (e, n) for e, n in shape.points]
 path = 'M %s L %s Z' % (points[0], ','.join(points[1:]))
 
-print '<svg xmlns="http://www.w3.org/2000/svg" viewBox="%s" overflow="hidden">' % viewBox
+print '<svg xmlns="http://www.w3.org/2000/svg" viewBox="%s">' % viewBox
 print ' <path id="%s" d="%s"/>' % (record.oa11, path)
 print '</svg>'
 
