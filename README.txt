@@ -10,6 +10,15 @@ For more, see:
 - http://www.ons.gov.uk/ons/guide-method/census/census-2001/design-and-conduct/consulting-with-users/output-consultation/geography-output-roadshow-meetings/output-areas---an-introduction.pdf
 - http://cdu.mimas.ac.uk/materials/unit8/unit8-textversion.rtf
 
+The data is supplied under the Open Government and OS Open Data licences, and is all Crown Copyright.
+
+
+For Scottish postcodes, see (requires OSMA licence):
+- http://www.gro-scotland.gov.uk/geography/postcode-extract/postcode-extract-files.html
+
+For Northern Irish output areas, see (requires postcode licence):
+- http://www.nisra.gov.uk/geography/default.asp2.htm
+
 
 Installation
 ============
